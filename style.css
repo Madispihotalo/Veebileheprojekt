@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    min-height: 100%;
+} body {
+    font-family: monospace;
+    background-color: rgb(104, 127, 162);
+    padding: 100px;
+    box-sizing: border-box;
+} body, #posts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+} a {
+    color: black;
+} h1 a {
+    text-decoration: none;
+} .card {
+    margin: 25px 0;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.5);
+    min-height: 200px;
+    min-width: 300px;
+} .card__title {
+    background-color: #dce4ef;
+    padding: 20px;
+    margin: 0;
+} .card__title h2 {
+    margin: 0;
+} .card__content {
+    padding: 20px;
+} .card__content img {
+    max-width: 100%;
+}
+@media (max-width: 720px) {
+    body {
+        padding: 100px 40px;
+    }
+}
